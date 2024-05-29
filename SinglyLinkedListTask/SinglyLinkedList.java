@@ -33,10 +33,6 @@ public class SinglyLinkedList {
 
 		}
 		int position = sc.nextInt();
-//		if(position > noOfNodes) {
-//			System.out.println("Enter valid position to delete a node");
-//		}
-
 		printList(list);
 		deleteAtPosition(list, position);
 		printList(list);
